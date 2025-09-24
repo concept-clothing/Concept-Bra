@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections | Concept Brand</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #adaaaaf3;
+      color: #111010;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: #1cc0b8;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      color: rgb(10, 10, 10);
+      font-size: 2rem;
+      font-weight: bolder;
+      text-decoration: line-through;
+    }
+
+    nav ul {
+      list-style: disc;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: rgb(196, 2, 2);
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff6600;
+    }
+
+    /* Page Content */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #090a0a;
+    }
+
+    /* Product Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: rgba(97, 221, 148, 0.205);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(221, 5, 5, 0.925);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    .price {
+      color: #ff6600;
+      font-weight: bold;
+      margin: 5px 0 15px;
+    }
+
+    .btn {
+      background: #ff6600;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e65c00;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="logo">Concept Clothing</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Collections Content -->
+  <section>
+    <h1>Our Collections</h1>
+    <p>Explore our latest styles and discover fashion that speaks individuality.</p>
+
+    <div class="grid">
+      <!-- Product 1 -->
+      <div class="card">
+        <img src="assets/hoodie.jpeg" alt="Hoodie">
+        <h3>Streetwear Hoodie</h3>
+        <p class="price">R450</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="card">
+        <img src="assets/t shirt 2.jpeg" alt="Casual Wear">
+        <h3>Casual T-Shirt</h3>
+        <p class="price">R250</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="card">
+        <img src="assets/hat.jpeg" alt="Accessories">
+        <h3>Stylish Hat</h3>
+        <p class="price">R150</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="card">
+        <img src="assets/tracksuit.jpeg" alt="Trouser">
+        <h3>Winter Trouser</h3>
+        <p class="price">R300</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="card">
+        <img src="assets/printed 2 sides shirt.jpeg" alt="Shirt">
+        <h3>Casual Shirt</h3>
+        <p class="price">R220</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="card">
+        <img src="assets/printed one side shirt.jpeg" alt="Shirt">
+        <h3>Casual Shirt 2</h3>
+        <p class="price">R180</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="card">
+        <img src="assets/new design.jpeg" alt="Shirt">
+        <h3>Casual Shirt</h3>
+        <p class="price">R220</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="card">
+        <img src="assets/casual shirt.jpeg" alt="Shirt">
+        <h3>Casual Shirt</h3>
+        <p class="price">R180</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 9 -->
+      <div class="card">
+        <img src="assets/combo.jpeg" alt="Shirt and hat">
+        <h3>Casual Shirt and hat</h3>
+        <p class="price">R260</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
